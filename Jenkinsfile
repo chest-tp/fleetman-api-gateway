@@ -3,8 +3,8 @@ pipeline {
 
    environment {
      // You must set the following environment variables
-     ORGANIZATION_NAME = chest-tp
-     YOUR_DOCKERHUB_USERNAME = tsiryti
+     ORGANIZATION_NAME = "chest-tp"
+     YOUR_DOCKERHUB_USERNAME = "tsiryti"
 
      SERVICE_NAME = "fleetman-api-gateway"
      REPOSITORY_TAG="${YOUR_DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"

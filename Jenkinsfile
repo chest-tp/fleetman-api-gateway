@@ -1,6 +1,11 @@
 pipeline {
    agent any
 
+   tools { 
+        maven 'Maven 3.9.6' 
+        //jdk 'jdk8' 
+    }
+
    environment {
      // You must set the following environment variables
      ORGANIZATION_NAME = "chest-tp"

@@ -3,7 +3,7 @@ pipeline {
 
    tools { 
         maven 'maven'
-        docker 'docker'
+        //docker 'docker'
         //jdk 'jdk8' 
     }
 
